@@ -56,28 +56,28 @@ For reproducibility, users should install the package set required for the speci
 
 ### Installation instructions
 
-This repository includes a pinned Python dependency file in `requirements.txt`. A practical installation path is:
+Install the repository from GitHub and then install the dependencies required for the analysis branch you plan to run.
 
-1. Clone the repository.
+1. Clone the repository from GitHub.
 2. Enter the repository directory.
-3. Create and activate a dedicated conda environment, if desired.
-4. Install the Python dependencies needed for the branch you want to run.
-5. Install the required R and Bioconductor packages for the bulk RNA-seq workflow.
+3. Create and activate a conda environment.
+4. Install the Python dependencies in `requirements.txt`.
+5. Install the R and Bioconductor dependencies listed in `requirements_R.txt`.
+6. Install the command-line tools listed in `requirements_tools.txt`, if needed for your workflow.
 
 Example commands:
 
 ```bash
+git clone https://github.com/mcgilldinglab/dmd-ifn-multiomics-analysis.git
+cd dmd-ifn-multiomics-analysis
+
 conda create -n dmd_ifn_demo python=3.10.12 -y
 conda activate dmd_ifn_demo
 
 pip install -r requirements.txt
-
-Rscript -e "install.packages(c('tidyverse','glue','readr'))"
-Rscript -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager')"
-Rscript -e "BiocManager::install(c('DESeq2','org.Hs.eg.db','AnnotationDbi','reactome.db','ReactomePA','enrichplot','msigdbr'))"
 ```
 
-If you plan to run the alignment and counting workflows in `human_analysis/bulk_rnaseq/` or `human_analysis/single_nucleus_rnaseq/`, also install the required command-line tools such as `STAR`, `samtools`, `featureCounts`, `SRA Toolkit`, and `Cell Ranger` as described in the subfolder README files.
+For workflows that require R packages or external command-line tools, install the software listed in `requirements_R.txt` and `requirements_tools.txt`. Additional workflow-specific notes are provided in the subfolder README files.
 
 ### Typical installation time
 
@@ -100,7 +100,7 @@ Small demo datasets are provided under `demo_data/` for all three analysis branc
 - `demo_data/human_single_nucleus/`
 - `demo_data/IFNKO_exp/`
 
-Among these, the most direct command-line software demo is the human bulk RNA-seq differential expression example. Additional demo examples for all branches are documented in `demo_data/README.md`.
+The included demo datasets consist of small example inputs for the repository workflows. Detailed demo examples are provided in `demo_data/README.md`.
 
 ### Instructions to run the demo
 
@@ -120,7 +120,7 @@ The demo command is expected to create:
 - `demo_data/human_bulk_rnaseq/demo_results/PCA_plot.pdf`
 - `demo_data/human_bulk_rnaseq/demo_results/MA_plot.pdf`
 
-The other demo folders provide lightweight example inputs that document expected data structure for the notebook-based workflows, including small real-data subsets, but they are not full substitutes for the complete study inputs such as processed single-cell objects, 10x Genomics matrices, `.loom` files, or Cell Ranger outputs.
+The other demo folders provide lightweight example inputs that document the expected input structure for the notebook-based workflows, but they are not full substitutes for the complete study inputs such as processed single-cell objects, 10x Genomics matrices, `.loom` files, or Cell Ranger outputs. See `demo_data/README.md` for detailed demo examples.
 
 ### Expected run time for the demo
 
