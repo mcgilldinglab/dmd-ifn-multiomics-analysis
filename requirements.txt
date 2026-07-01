@@ -1,0 +1,16 @@
+# Main Python requirements for this repository.
+# Shared dependencies are listed once.
+# Some workflow-specific packages may require separate compatible environments in practice.
+scanpy==1.9.5
+anndata==0.9.2
+pandas==2.1.4
+numpy==1.26.4
+matplotlib==3.7.3
+seaborn==0.12.2
+scipy==1.11.1
+scrublet==0.2.3
+gseapy==1.1.0
+harmonypy==0.0.9
+scvelo==0.2.5
+cellrank==1.5.1
+scSemiProfiler==0.1.0

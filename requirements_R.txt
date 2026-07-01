@@ -1,0 +1,11 @@
+# R package requirements for bulk RNA-seq differential expression and pathway analysis
+DESeq2==1.38.3
+tidyverse==2.0.0
+org.Hs.eg.db==3.16.0
+AnnotationDbi==1.67.0
+glue==1.6.2
+reactome.db==1.58.0
+ReactomePA==1.42.0
+enrichplot==1.25.3
+readr==2.1.4
+msigdbr==7.5.1
