@@ -1,0 +1,5 @@
+cell_id,condition,predicted_cluster,source_file
+AAACGAAGTACAGGTG-1-4,mdx_WT,C6,sex_chimeric.h5ad
+AAACGCTGTCTGATAC-1-4,mdx_WT,C5,sex_chimeric.h5ad
+AAAGGATCATCCGGTG-1-4,mdx_WT,C2,sex_chimeric.h5ad
+AAAGTGAGTCTAGATC-1-4,mdx_WT,C1,sex_chimeric.h5ad

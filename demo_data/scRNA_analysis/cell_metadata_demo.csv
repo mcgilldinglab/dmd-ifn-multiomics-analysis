@@ -1,0 +1,9 @@
+cell_id,dataset_group,pred_sex,cluster,source_file
+AAACGCTTCAAGGTGG-1-0,WT_WT,female,C1,sex_chimeric.h5ad
+AAACCCACAGACCCGT-1-0,WT_WT,male,C1,sex_chimeric.h5ad
+AAACGCTGTCTGATAC-1-4,mdx_WT,female,C5,sex_chimeric.h5ad
+AAACGAAGTACAGGTG-1-4,mdx_WT,male,C6,sex_chimeric.h5ad
+AAGGAATGTAGGAAAG-1-18,WT_mdx,female,C1,sex_chimeric.h5ad
+AAACGCTGTCGTGGAA-1-18,WT_mdx,male,C0,sex_chimeric.h5ad
+AAACCCATCGAGCCTG-1-19,mdx_mdx,female,C4,sex_chimeric.h5ad
+AAACGAAAGTCATAGA-1-19,mdx_mdx,male,C0,sex_chimeric.h5ad

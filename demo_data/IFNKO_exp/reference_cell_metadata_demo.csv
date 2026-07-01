@@ -1,0 +1,9 @@
+cell_id,cluster,condition,source_file
+AAACCCACAGACCCGT-1-0,C1,WT_WT,sex_chimeric.h5ad
+AAACCCACAGCAGTAG-1-0,C2,WT_WT,sex_chimeric.h5ad
+AAACGAAGTACAGGTG-1-4,C6,mdx_WT,sex_chimeric.h5ad
+AAACGCTGTCTGATAC-1-4,C5,mdx_WT,sex_chimeric.h5ad
+AAACGCTGTCGTGGAA-1-18,C0,WT_mdx,sex_chimeric.h5ad
+AAAGAACTCCGACATA-1-18,C0,WT_mdx,sex_chimeric.h5ad
+AAACCCATCGAGCCTG-1-19,C4,mdx_mdx,sex_chimeric.h5ad
+AAACGAAAGTCATAGA-1-19,C0,mdx_mdx,sex_chimeric.h5ad
