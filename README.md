@@ -1,6 +1,6 @@
 # Analysis code for type I IFN and DMD mouse studies
 
-This repository contains analysis code for the manuscript **“Type 1 Interferon Mediates Trained Immunity and Muscle Weakness in Duchenne Muscular Dystrophy Mice”**. The codebase covers mouse sex-chimeric single-cell RNA-seq, human bulk and single-nucleus RNA-seq, and IFNAR1 chimera analyses.
+This repository contains analysis code for the manuscript **“Type I Interferon Drives Trained Immunity and Exacerbates Duchenne Muscular Dystrophy”**. The codebase covers mouse sex-chimeric single-cell RNA-seq, human bulk and single-nucleus RNA-seq, and IFNAR1 chimera analyses.
 
 Processed and raw study data will be released separately once the manuscript is accepted. For software demonstration and repository review, small demo datasets are included under `demo_data/`.
 
